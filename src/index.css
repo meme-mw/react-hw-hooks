@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+html,body,#root,section{
+  
+  margin: 0;
+  padding:0;
+  width:100vw;
+  height: 100vh;
+  color: #fff;
+}
+.flex{
+  display: flex;
+  width:100%;
+  justify-content: space-around !important;
+
+ padding-bottom: .5rem;
+}
+.img{
+  background-size:   cover ; 
+  background-repeat: no-repeat;
+  background-position: center;
+  display:flex;
+
+}
+section{
+   justify-content: space-between;
+  flex-direction: column;
+}
+.ch{
+  cursor: pointer;
+  transition: transform .2s;
+
+}
+.ch:hover{
+  transform: scale(1.1);
+}
